@@ -1,2 +1,37 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+#chapter-15 blockquote br{
+	display: none;
+}
+
+#chapter-15 blockquote{
+	text-align: center;
+}
+
+#chapter-15 blockquote p{
+	display: inline-block;
+	margin: auto;
+	text-align: initial;
+}
+
+#chapter-15 blockquote span{
+	display: block;
+	text-indent: 1em;
+}
+
+#chapter-15 blockquote span + br + span{
+	text-indent: 2em;
+}
+
+#chapter-15 blockquote span + br + span + br + span{
+	text-indent: 3em;
+}
+
+#chapter-15 blockquote span + br + span + br + span + br + span{
+	text-indent: 4em;
+}
