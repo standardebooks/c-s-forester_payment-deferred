@@ -9,6 +9,10 @@
 	text-indent: 0;
 }
 
+q{
+	font-style: italic;
+}
+
 #chapter-15 blockquote br{
 	display: none;
 }
